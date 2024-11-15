@@ -5,21 +5,30 @@ A robust iOS password manager featuring biometric authentication, encrypted stor
 ## Screenshots & Features
 
 ### Main Interface
-![Simulator Screenshot - iPhone 16 Pro - 2024-11-15 at 18 56 31](https://github.com/user-attachments/assets/cdecdc58-0446-4bd8-9ca1-b65c95e8d54f)
-- Clean, intuitive password list view
-- Quick access search functionality 
-- Color-coded password entries
-- Settings and add password shortcuts
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-15 at 18 56 31](https://github.com/user-attachments/assets/9c56c5ba-ac9e-44d0-bca3-2fe5a9d4d31a)
+- Clean password list with search functionality
+- Purple-themed cards showing titles and usernames
+- Quick access to settings and add functions
+- Real-time search filtering
 
-### Add/Edit Password
-![Simulator Screenshot - iPhone 16 Pro - 2024-11-15 at 18 56 40](https://github.com/user-attachments/assets/47bf6a21-ad4c-45d3-a3a0-8f32db6c7231)
+### Add Password
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-15 at 18 56 40](https://github.com/user-attachments/assets/52fc5248-1c0f-4c8b-bc0c-b46be5ee2307)
 - Title and username fields
 - Secure password entry
 - Optional notes section
 - Simple save/cancel navigation
 
+### Password Detail View
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-15 at 19 16 30](https://github.com/user-attachments/assets/33e36318-dcea-42cb-885b-c4db144d781b)
+- One-tap username & password copy feature
+- Secure password viewing with eye icon
+- Individual copy buttons for credentials
+- Edit and delete options
+- Notes display section
+- Face ID required for viewing password
+
 ### Settings & Customization
-![Simulator Screenshot - iPhone 16 Pro - 2024-11-15 at 18 56 35](https://github.com/user-attachments/assets/9c2e8c92-b564-469f-92f6-2dd6ae2ab9c5)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-15 at 18 56 35](https://github.com/user-attachments/assets/5a96fcd1-bb70-4cf0-a7ae-f0cbcc0e6378)
 - Theme color customization
   - Background color
   - Box background color
@@ -32,6 +41,7 @@ A robust iOS password manager featuring biometric authentication, encrypted stor
 ### Authentication
 - Biometric authentication (Face ID/Touch ID) required to access the app
 - Fallback passcode option available
+- Authentication required for viewing passwords
 
 ### Data Protection
 - Encrypted password storage
@@ -46,9 +56,10 @@ A robust iOS password manager featuring biometric authentication, encrypted stor
 - 🎨 Customizable themes
 - 💾 Encrypted backup/restore
 - 📋 Quick copy functionality
+- 👁️ Secure password viewing
 
 ## Requirements
-- iOS 17.0+
+- iOS 14.0+
 - Face ID/Touch ID capable device
 - Xcode 14.0+ for building
 

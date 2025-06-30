@@ -1,0 +1,57 @@
+[versions]
+activityComposeVersion = "1.8.2"
+agp = "8.9.0"
+documentfile = "1.1.0"
+kotlin = "2.0.21"
+coreKtx = "1.15.0"  # Updated to latest stable version
+junit = "4.13.2"
+junitVersion = "1.2.1"  # Updated to latest stable version
+espressoCore = "3.6.1"  # Updated to latest stable version
+lifecycleRuntimeKtx = "2.8.7"  # Updated to latest stable version
+activityCompose = "1.10.1"  # Updated to latest stable version
+composeBom = "2025.03.00"  # Updated to latest stable version
+navigationCompose = "2.8.9"  # Updated to latest stable version
+navigationRuntimeAndroid = "2.8.9"  # Updated to match navigationCompose
+fragmentKtx = "1.8.6"  # Updated to latest stable version
+biometric = "1.2.0"  # Updated to latest stable version
+room = "2.6.1"
+media3 = "1.5.1"
+material-icons-extended = "1.7.8"
+gson = "2.10.1"
+securityCrypto = "1.1.0-beta01"
+
+[libraries]
+androidx-activity-compose-v182 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-documentfile = { module = "androidx.documentfile:documentfile", version.ref = "documentfile" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-navigation-runtime-android = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeAndroid" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+androidx-biometric = { group = "androidx.biometric", name = "biometric", version = "1.4.0-alpha02" }
+
+# Room dependencies
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-media3-common-ktx = { group = "androidx.media3", name = "media3-common", version.ref = "media3" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "material-icons-extended" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
